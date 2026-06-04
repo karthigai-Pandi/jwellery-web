@@ -1,0 +1,12 @@
+{
+  "name": "karthi-jewellery-shop",
+  "version": "1.0.0",
+  "description": "KARTHI Jewellery Shop landing page with backend sign-in and Chennai location.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

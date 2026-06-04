@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KARTHI Jewellery Shop landing page with gold, silver, platinum, diamond and ruby jewellery collections.">
+  <title>KARTHI Jewellery Shop | Gold, Silver, Diamond & Platinum Jewellery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <p>Today's Gold Rate : Gold 24Kt Rate ₹15,709 / gm</p>
+  </div>
+
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <a class="brand" href="#home">
+      <span class="brand__mark">KARTHI</span>
+      <span class="brand__text">Jewellery Shop</span>
+    </a>
+    <div class="header-actions">
+      <a class="icon-link" href="#signin">Sign In</a>
+      <a class="icon-link cart-link" href="#support">Cart <span class="cart-count">0</span></a>
+    </div>
+  </header>
+
+  <div class="search-panel">
+    <form id="search-form" class="search-form" role="search" aria-label="Search jewellery">
+      <label for="search-input" class="visually-hidden">Search products</label>
+      <input id="search-input" type="search" name="query" placeholder="Search for Gold" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <main>
+    <section class="hero hero--banner" id="home">
+      <div class="hero__content">
+        <span class="eyebrow">Signature collections</span>
+        <h1>Frame every celebration with jewellery that feels luxurious and modern</h1>
+        <p>Explore premium gold, diamond and platinum pieces designed for weddings, gifting and everyday elegance.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#collections">Explore Collections</a>
+          <a class="button button--secondary" href="#story-showcase">View Story</a>
+        </div>
+        <div class="hero__badges">
+          <span>Hallmarked certified</span>
+          <span>Fast delivery</span>
+          <span>7-day returns</span>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero-mockup">
+          <div class="hero-mockup__label">New arrival</div>
+          <h2>Rajwara Ruby Ring</h2>
+          <p>A sculpted celebration ring inspired by South Indian heritage and modern shine.</p>
+          <div class="hero-mockup__stats">
+            <div>
+              <strong>24K</strong>
+              <span>Gold</span>
+            </div>
+            <div>
+              <strong>VVS</strong>
+              <span>Diamond</span>
+            </div>
+          </div>
+          <div class="hero-mockup__image"></div>
+          <div class="hero-mockup__meta">
+            <span>Exclusive launch</span>
+            <strong>Limited edition</strong>
+          </div>
+        </div>
+        <div class="hero__accent accent-a"></div>
+        <div class="hero__accent accent-b"></div>
+      </div>
+    </section>
+
+    <nav class="page-nav" aria-label="Quick access">
+      <a href="#home"><span>Home</span></a>
+      <a href="#collections"><span>Categories</span></a>
+      <a href="#story-showcase"><span>Digi Gold</span></a>
+      <a href="#location"><span>Find Store</span></a>
+      <a href="#signin"><span>My Account</span></a>
+    </nav>
+
+    <section class="hero-benefits" aria-label="Hero benefits">
+      <article>
+        <strong>Hallmarked</strong>
+        <p>Certified BIS HUID jewellery for every purchase.</p>
+      </article>
+      <article>
+        <strong>7-Day Returns</strong>
+        <p>Easy returns and exchanges on eligible items.</p>
+      </article>
+      <article>
+        <strong>Lifetime Care</strong>
+        <p>Complimentary maintenance for premium pieces.</p>
+      </article>
+      <article>
+        <strong>Free Shipping</strong>
+        <p>Fast insured delivery across India.</p>
+      </article>
+    </section>
+
+    <section class="featured-nav">
+      <a href="#collections">Gold Jewellery</a>
+      <a href="#collections">Diamond Jewellery</a>
+      <a href="#collections">Platinum Jewellery</a>
+      <a href="#collections">Silver Jewellery</a>
+      <a href="#collections">Daily Wear / 18KT</a>
+      <a href="#collections">Coins & Gifts</a>
+    </section>
+
+    <section class="benefit-strip" aria-label="Store benefits">
+      <article class="benefit-card">
+        <strong>Hallmarked</strong>
+        <p>Certified BIS HUID jewellery.</p>
+      </article>
+      <article class="benefit-card">
+        <strong>7-Day Returns</strong>
+        <p>Easy returns and exchange policy.</p>
+      </article>
+      <article class="benefit-card">
+        <strong>Lifetime Care</strong>
+        <p>Lifetime maintenance and support.</p>
+      </article>
+      <article class="benefit-card">
+        <strong>Free Shipping</strong>
+        <p>Insured delivery across India.</p>
+      </article>
+    </section>
+
+    <section class="promo-panel">
+      <div class="promo-panel__content">
+        <p class="eyebrow">Featured collection</p>
+        <h2>Jewellery for her — shine with every celebration</h2>
+        <p>Explore our curated collection of gold, diamond and platinum jewellery designed to make her look and feel exceptional.</p>
+        <a class="button button--primary" href="#collections">Shop Now</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=900&q=80" alt="Jewellery for her">
+    </section>
+
+    <section class="signature-section">
+      <div class="section-heading">
+        <p class="eyebrow">Signature essentials</p>
+        <h2>Explore our premium jewellery collections</h2>
+      </div>
+      <div class="signature-grid">
+        <article class="signature-card">
+          <img src="https://images.unsplash.com/photo-1542060748-55aa5e7f0d86?auto=format&fit=crop&w=900&q=80" alt="Mirage collection">
+          <div class="card-content">
+            <h3>Mirage</h3>
+            <p>My everyday solitaire for effortless shine.</p>
+            <a href="#collections">Shop Now</a>
+          </div>
+        </article>
+        <article class="signature-card">
+          <img src="https://images.unsplash.com/photo-1512920946306-3d0f0b4f8cc3?auto=format&fit=crop&w=900&q=80" alt="Balle collection">
+          <div class="card-content">
+            <h3>Balle</h3>
+            <p>Diamonds of elegance built for special moments.</p>
+            <a href="#collections">Shop Now</a>
+          </div>
+        </article>
+        <article class="signature-card">
+          <img src="https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?auto=format&fit=crop&w=900&q=80" alt="Flutter collection">
+          <div class="card-content">
+            <h3>Flutter</h3>
+            <p>A little flutter for your everyday luxury.</p>
+            <a href="#collections">Shop Now</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="collections-grid" id="collections">
+      <div class="section-heading">
+        <p class="eyebrow">Shop by category</p>
+        <h2>Gold, Silver, Platinum, Diamond & Ruby Jewellery</h2>
+      </div>
+      <div class="collections-grid__cards">
+        <article class="category-card" id="gold">
+          <div class="category-card__image" style="background-image:url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80');"></div>
+          <div class="category-card__content">
+            <small>Gold Jewellery</small>
+            <h3>Gold Earrings</h3>
+          </div>
+        </article>
+        <article class="category-card" id="diamond">
+          <div class="category-card__image" style="background-image:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80');"></div>
+          <div class="category-card__content">
+            <small>Diamond Jewellery</small>
+            <h3>Diamond Rings</h3>
+          </div>
+        </article>
+        <article class="category-card" id="platinum">
+          <div class="category-card__image" style="background-image:url('https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?auto=format&fit=crop&w=900&q=80');"></div>
+          <div class="category-card__content">
+            <small>Platinum Jewellery</small>
+            <h3>Platinum Bracelets</h3>
+          </div>
+        </article>
+        <article class="category-card" id="silver">
+          <div class="category-card__image" style="background-image:url('https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80');"></div>
+          <div class="category-card__content">
+            <small>Silver Jewellery</small>
+            <h3>Silver Chains</h3>
+          </div>
+        </article>
+        <article class="category-card" id="ruby">
+          <div class="category-card__image" style="background-image:url('https://images.unsplash.com/photo-1518962556819-2bf2d3e7cd7c?auto=format&fit=crop&w=900&q=80');"></div>
+          <div class="category-card__content">
+            <small>Ruby Jewellery</small>
+            <h3>Gemstone Necklaces</h3>
+          </div>
+        </article>
+        <article class="category-card" id="chains">
+          <div class="category-card__image" style="background-image:url('https://images.unsplash.com/photo-1512920946306-3d0f0b4f8cc3?auto=format&fit=crop&w=900&q=80');"></div>
+          <div class="category-card__content">
+            <small>Rings & Chains</small>
+            <h3>Elegant Chains</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured-section">
+      <div class="section-heading">
+        <p class="eyebrow">Trending categories</p>
+        <h2>Shop the latest jewellery picks</h2>
+      </div>
+      <div class="featured-cards">
+        <article class="featured-card">
+          <img src="https://images.unsplash.com/photo-1506277882008-5ff43cfec926?auto=format&fit=crop&w=900&q=80" alt="Gold bangles">
+          <div>
+            <h3>Gold Bangles</h3>
+            <p>Timeless gold bangles crafted for celebrations.</p>
+          </div>
+        </article>
+        <article class="featured-card">
+          <img src="https://images.unsplash.com/photo-1512920946306-3d0f0b4f8cc3?auto=format&fit=crop&w=900&q=80" alt="Diamond pendant">
+          <div>
+            <h3>Diamond Pendant</h3>
+            <p>Brilliant pendants with premium certified diamonds.</p>
+          </div>
+        </article>
+        <article class="featured-card">
+          <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=900&q=80" alt="Ruby jewellery">
+          <div>
+            <h3>Ruby Sets</h3>
+            <p>Elegant ruby jewellery for special occasions.</p>
+          </div>
+        </article>
+        <article class="featured-card">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Silver chain">
+          <div>
+            <h3>Silver Chains</h3>
+            <p>Classic chains designed for everyday luxury.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="media-section" id="story-showcase">
+      <div class="media-section__text">
+        <p class="eyebrow">Spotlight</p>
+        <h2>Discover the design story behind our collection</h2>
+        <p>Enjoy a refined showcase of premium jewellery styling, hand-finished details and modern presentation.</p>
+        <div class="media-caption">
+          <span>Collection</span>
+          <strong>Heritage Radiance</strong>
+          <span>Craft</span>
+          <strong>Artisan Finish</strong>
+        </div>
+      </div>
+      <div class="media-section__preview">
+        <div class="preview-card">
+          <div class="preview-card__frame"></div>
+          <div class="preview-card__details">
+            <span>Featured look</span>
+            <h3>Golden elegance</h3>
+            <p>A sculpted jewellery composition with warm gold, polished stone details and premium shine.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="account-section" id="signin">
+      <div class="section-heading">
+        <p class="eyebrow">Member access</p>
+        <h2>Sign in or create your KARTHI account</h2>
+      </div>
+      <div class="account-grid">
+        <article class="account-card">
+          <h3>Already registered?</h3>
+          <form id="signin-form" class="auth-form">
+            <label for="signin-email">Email address</label>
+            <input id="signin-email" type="email" name="email" placeholder="you@example.com" required>
+            <label for="signin-password">Password</label>
+            <input id="signin-password" type="password" name="password" placeholder="Enter your password" required>
+            <button type="submit" class="button button--primary">Sign In</button>
+          </form>
+        </article>
+        <article class="account-card account-card--highlight">
+          <h3>New to KARTHI?</h3>
+          <form id="signup-form" class="auth-form">
+            <label for="signup-name">Full name</label>
+            <input id="signup-name" type="text" name="name" placeholder="Your full name" required>
+            <label for="signup-email">Email address</label>
+            <input id="signup-email" type="email" name="email" placeholder="you@example.com" required>
+            <label for="signup-password">Password</label>
+            <input id="signup-password" type="password" name="password" placeholder="Create a password" required>
+            <button type="submit" class="button button--secondary">Create Account</button>
+          </form>
+        </article>
+      </div>
+      <div id="auth-status" class="auth-status" aria-live="polite"></div>
+    </section>
+
+    <section class="location-section" id="location">
+      <div class="section-heading">
+        <p class="eyebrow">Chennai showroom</p>
+        <h2>Visit KARTHI Jewellery Shop in Chennai</h2>
+      </div>
+      <div class="location-grid">
+        <div class="location-copy">
+          <p>Step into our flagship Chennai showroom for certified gold, diamond, platinum and gemstone jewellery. Enjoy expert service, secure payments and a premium shopping experience.</p>
+          <ul class="location-list">
+            <li><strong>Address:</strong> 15, Anna Salai, Nungambakkam, Chennai - 600034</li>
+            <li><strong>Phone:</strong> +91 86060 83922</li>
+            <li><strong>Hours:</strong> Mon - Sat: 10:00 AM to 8:00 PM</li>
+            <li><strong>Support:</strong> Customer care, store finder and WhatsApp help available</li>
+          </ul>
+        </div>
+        <div class="map-frame">
+          <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.539025771777!2d80.2491185150653!3d13.06368289044914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266889bda7d29%3A0x5f6f4e417d8f45f7!2sAnna%20Salai%2C%20Nungambakkam%2C%20Chennai%2C%20Tamil%20Nadu%20600034!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-grid" aria-label="Store benefits">
+      <article>
+        <strong>Hallmarked</strong>
+        <p>Certified BIS HUID products.</p>
+      </article>
+      <article>
+        <strong>7 Day Returns</strong>
+        <p>Easy refund and exchange policy.</p>
+      </article>
+      <article>
+        <strong>Free Shipping</strong>
+        <p>Fast, insured delivery across India.</p>
+      </article>
+      <article>
+        <strong>Secure Checkout</strong>
+        <p>Trusted payment and delivery tracking.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="support">
+    <div class="footer-columns">
+      <div>
+        <h3>KARTHI Jewellery Shop</h3>
+        <p>Shop certified jewellery online with secure service, beautiful packaging and trusted support.</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <a href="#collections">Collections</a>
+        <a href="#story-showcase">Story</a>
+        <a href="#signin">Sign In</a>
+        <a href="#location">Chennai</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#signin">Create Account</a>
+        <a href="#support">Customer Support</a>
+        <a href="https://api.whatsapp.com/send?phone=918606083922" target="_blank" rel="noopener">WhatsApp Chat</a>
+      </div>
+    </div>
+    <p class="footer-copy">� 2026 KARTHI Jewellery Shop. All rights reserved.</p>
+  </footer>
+
+  <aside class="floating-chat" aria-label="WhatsApp support">
+    <a href="https://api.whatsapp.com/send?phone=918606083922" target="_blank" rel="noopener">
+      <span>WhatsApp us</span>
+      <strong>Chat with support</strong>
+    </a>
+  </aside>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#home">Home</a>
+    <a href="#gold">Gold</a>
+    <a href="#diamond">Diamond</a>
+    <a href="#platinum">Platinum</a>
+    <a href="#support">Support</a>
+  </nav>
+</body>
+</html>
